@@ -372,6 +372,10 @@
           <artifactId>javax.ws.rs-api</artifactId>
           <groupId>javax.ws.rs</groupId>
         </exclusion>
+        <exclusion>
+          <artifactId>javax.servlet.jsp</artifactId>
+          <groupId>org.glassfish.web</groupId>
+        </exclusion>
       </exclusions>
     </dependency>
 
@@ -787,6 +791,10 @@
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-databind</artifactId>
         </exclusion>
+        <exclusion>
+          <artifactId>javax.servlet.jsp</artifactId>
+          <groupId>org.glassfish.web</groupId>
+        </exclusion>
       </exclusions>
       <classifier>tests</classifier>
     </dependency>
@@ -808,6 +816,10 @@
         <exclusion>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-databind</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>javax.servlet.jsp</artifactId>
+          <groupId>org.glassfish.web</groupId>
         </exclusion>
       </exclusions>
     </dependency>
